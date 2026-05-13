@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Jackson</title>
+    <style>
+       .container-pai {
+    display: flex; 
+    gap: 50px;     
+    max-width: 1000px; 
+    margin: 0 auto;   
+    padding: 20px;     
+}
+
+        .esquerda {
+            flex: 2;     
+            border-radius: 12px;
+        }
+
+        .direita {
+            flex: 2;   
+            border-radius: 12px; 
+        }
+
+        .esquerda img {
+            height: auto;
+            width: 300px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #d4af37;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 12px;
+        }
+
+        body {
+            font-family: system-ui;
+            background-image: url('foto1');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 0;
+            padding-bottom: 80px;
+        }
+
+        h2 {
+            color: black;
+            font-size: 1.6rem;
+            border-left: 5px solid #d4af37; 
+            padding-left: 10px;
+            margin-top: 35px;
+        }
+
+        h1 {
+            text-align: center;
+            color: black;
+            background-color: #d4af37;
+            font-size: 2.3rem;
+            text-transform: uppercase;
+            letter-spacing: 2px; 
+            margin-top: 0;
+            margin-bottom: 40px; 
+            padding: 25px;
+        }
+
+        .esquerda, .direita {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            margin-bottom: 25px;
+        }
+
+        th {
+            background-color: #d4af37;
+            color: black;
+            font-weight: bold;
+            padding: 10px;
+            text-align: left;
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #e0e0e0;
+            color: black;
+        }   
+
+        a {
+            color: #d4af37;
+        }
+
+        footer {
+            background-color: #d4af37;
+            color: #000;
+            text-align: center;
+            font-weight: bold;
+            padding: 20px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Michael Jackson: O Rei do pop</h1>
+
+    <div class="container-pai">
+
+        <div class="esquerda">
+            <h2>Uma vida musica</h2>
+            <p>Nascido em Gary, Indiana, Michael Joseph Jackson se tornou a figura cultural mais influente do século XX. Sua carreira abrangeu quatro décadas, deixando um legado inigualável na música, dança e moda.</p>
+
+            <h2>A era Jackson 5</h2>
+            <ul>
+                <li>Formação: Michael, Jackie, Tito, Jermaine, Marlon</li>
+                <li>Primeiro grande sucesso: "I Want You Back" (1969)</li>
+                <li>Estrelas mirins da Motown</li>
+            </ul>
+
+            <p>
+                <a href="https://pt.wikipedia.org/wiki/Michael_Jackson">Ler Biografia completa</a> <br>
+                <a href="https://www.gettyimages.pt/fotos/michael-jackson">Galeria de Fotos Históricas</a>
+            </p>
+
+           
+        </div> 
+        
+        <div class="direita">
+            <h2>Discografia especial</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Álbum</th>
+                        <th>Ano</th>
+                        <th>Vendas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Off the Wall</td>
+                        <td>1979</td>
+                        <td>+ de 20 Milhões</td>
+                    </tr>
+                    <tr>
+                        <td>Thriller</td>
+                        <td>1982</td>
+                        <td>+ de 66 Milhões</td>
+                    </tr>
+                    <tr>
+                        <td>Bad</td>
+                        <td>1987</td>
+                        <td>+ de 35 Milhões</td>
+                    </tr>
+                    <tr>
+                        <td>Dangerous</td>
+                        <td>1991</td>
+                        <td>+ de 32 Milhões</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Impacto Cultural</h2>
+            <p>A influência de Michael Jackson vai além da música. Ele quebrou barreiras raciais na MTV e revolucionou os videoclipes com curtas-metragens como "Thriller"</p>
+        </div>
+    </div>
+    
+    <footer>
+        <p>A vida de Michael Jackson</p>
+    </footer>
+</body>
+</html>
