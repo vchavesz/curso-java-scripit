@@ -10,21 +10,20 @@ let nota2
 let media
 
 alert("Vamos calcular a sua media e seu estado de aprovação")
-nota1=prompt("Insira nota de 0.0 a 10.0")
-nota2=prompt("Insira nota de 0.0 a 10.0")
+nota1=Number(prompt("Insira nota de 0.0 a 10.0"))
+nota2=Number(prompt("Insira nota de 0.0 a 10.0"))
 
-nota1 = Number(nota1)
-nota2 = Number(nota2)
+
 
 media = (nota1 + nota2) / 2
 
 
 if(media >= 6){
-    alert("Voce esta aprovado com a nota " + media )
+    alert("Você esta aprovado com a nota " + media )
+} else if (media >= 4) {
+    alert("Você esta na recuperção com a nota " + media )
 } else{
-    alert("Voce esta na recuperção com a nota " + media )
-} if(media < 4){
-    alert("Voce esta reprovado com a nota " + media )
+    alert("Você esta reprovado com a nota " + media )
 }
 
 

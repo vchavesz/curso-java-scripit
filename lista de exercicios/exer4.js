@@ -7,20 +7,19 @@ let gatos
 let cachorros
 let total
 
-gatos = prompt("Quantos gatos voce possui? ")
-cachorros = prompt ("Quantos cachorros voce tem? ")
+gatos = prompt("Quantos gatos você possui? ")
+cachorros = prompt ("Quantos cachorros você tem? ")
 
-gatos = Number(gatos)
-cachorros = Number(cachorros)
+total = Number(gatos) + Number(cachorros)
 
-total = gatos + cachorros
-
-alert("Voce possui ao todo " + total + " animais entre cachorros e gatos")
+alert("Você possui ao todo ( " + total + " ) de pets")
 
 if(gatos > cachorros){
-    alert("Voce tem mais gatos que cachorros")
-}else{
-    alert("Voce tem mais cachorros do que gatos")
+    alert("Você tem mais gatos")
+}else if (gatos < cachorros){
+    alert("Você tem mais cachorros")
+}else {
+    alert("A pessoa tem a mesma quantidade de gatos e cachorros")
 }
 
 

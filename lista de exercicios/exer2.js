@@ -8,13 +8,9 @@ let idade2
 
 
 nome1 = prompt("Insira o nome 1: ")
-nome2 = prompt("Insira o nome 2: ")
-
 idade1 = prompt("Insira a idade: " + nome1)
+nome2 = prompt("Insira o nome 2: ")
 idade2 = prompt("Insira a idade: " + nome2)
-
-idade1 = Number (idade1)
-idade2 = Number (idade2)
 
 if(idade1 > idade2){
     alert(nome1 + " é mais velho que " + nome2)

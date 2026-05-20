@@ -7,7 +7,7 @@ let CidadeQnasceu
 let CidadeQreside
 
 CidadeQnasceu = prompt("Insira a cidade que você nasceu: ")
-CidadeQreside = prompt("Inisra a cidade em que você mora: ") 
+CidadeQreside = prompt("Insira a cidade em que você mora: ") 
 
 if ( CidadeQnasceu == CidadeQreside){
     alert("Você mora na mesma cidade em que nasceu.")
