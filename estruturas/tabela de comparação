@@ -6,4 +6,6 @@ OPERADORES DE COMPARAÇÃO
  ==  IGUAL
  !=  DIFERENTE 
  !   NEGAÇÃO
- 
+ &&  apenas se ambas as condições forem verdadeiras
+ || se pelo menos uma das condições for verdadeira
+ ! 
