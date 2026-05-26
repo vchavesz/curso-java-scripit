@@ -5,7 +5,7 @@
 let contador = 349 
 
 while(contador  < 500){
-    contador = contador + 1
+   contador++
     console.log(contador) 
 }
 

@@ -3,7 +3,7 @@
 
 let contador = 101
 while(contador >= 1  ){
-    contador = contador - 1
+    contador--
     console.log(contador) 
 }
 
