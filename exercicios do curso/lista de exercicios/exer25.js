@@ -1,6 +1,5 @@
 const media = function (x,y){
-    let resultado = (x = y)/2
-
+   let resultado = (x + y) / 2
     return resultado
 }
 

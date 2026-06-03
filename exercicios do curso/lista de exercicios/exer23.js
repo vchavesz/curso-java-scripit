@@ -7,7 +7,7 @@ let soma = 0
 
 for (let cont = 1; cont <= 6; cont++) {
     let peso = Number(prompt("Insira o peso da pessoa " + cont))
-    soma = peso
+    soma += peso
 }
 
 let media = soma / 6

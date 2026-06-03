@@ -5,7 +5,7 @@ let meuCarro ={
     km: 30000,
     ligado: false,
     ligarCarro: function(){
-        this.ligado
+       this.ligado = true
         console.log(this.modelo, "Carro ligado! Vruumm!")
     }
 }

@@ -15,4 +15,4 @@ do {
         alert("Acesso negado insira numero 1 ou 0")
     }
 
-}while (numeros != 1 || numeros != 0) 
+}while (numeros != 1 && numeros != 0)
