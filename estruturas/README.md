@@ -5,8 +5,6 @@ Contém anotações, introduções e exercícios práticos desenvolvidos ao long
 
 ---
 
----
-
 ## 🧠 Conteúdo Estudado
 
 | Módulo | Tópicos |
@@ -22,7 +20,7 @@ Contém anotações, introduções e exercícios práticos desenvolvidos ao long
 
 ## ✅ Exercícios
 
-A pasta `exercicios do curso/lista de exercicios/` contém **33 exercícios** com progressão gradual de dificuldade.
+A pasta `exercicios do curso/lista de exercicios/` contém exercícios com progressão gradual de dificuldade.
 
 Para rodar os exercícios, abra o `index.html` dessa pasta no navegador — ele exibe uma interface para selecionar e executar cada arquivo `.js` individualmente.
 
@@ -39,5 +37,4 @@ Para rodar os exercícios, abra o `index.html` dessa pasta no navegador — ele 
 ## 👨‍💻 Autor
 
 **Vinicius Chaves** — [@vchavesz](https://github.com/vchavesz)  
-Estudante de Desenvolvimento Web no SENAI Cotia  
-Certificações: Front-end · C# · IA Generativa · AWS Cloud Practitioner (em andamento)
+Estudante de Java Script no SENAI Cotia  
