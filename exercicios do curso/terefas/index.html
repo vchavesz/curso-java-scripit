@@ -1,19 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-Br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarefas</title>
+
+
+    <style>
+        html {
+            font-family:  "Segoe Print";
+        }
+
+        body{
+            background-color: #077A7D;
+        }
+
+        h1{
+            color: #ffffff;
+            text-align: center;
+            font-size: 44px;
+        }
+
+        textarea{
+            width: 100%;
+        }
+
+        input[type="button"]{
+            height: 80px;
+            width: 100%;
+            background-color: #000000;
+            color:#ffffff;
+        }
+
+        article{
+            background-color: #fffba7;
+            width: 33%;
+            height: 150px;
+            text-align: center;
+            margin-top: 25px;
+            padding-top: 50px;
+            border-radius: 20px;
+
+        }
+
+        article p{
+            font-size: 32px;
+        }
+    </style>
 </head>
 <body>
         <h1>Adicionar tarefa</h1>
-        <p>Oreencha o campo abaixo coma tarefa</p>
+        <p>Preencha o campo abaixo com a tarefa</p> 
 
-        <textarea>Conteudo inicial da textarea </textarea>
+        <textarea id ="nova-nota"></textarea>
 
-        <input type="button" value="enserir tarefa" onclick="adicionarTarefa()">
+        <input type="button" value="inserir tarefa" onclick="adicionarTarefa()">
 
-        
+        <article class ="nota"><p>Escreva aqui</p></article>
 
 
      <script src=tarefa.js></script>
